@@ -1,12 +1,11 @@
 # ETH PROOF: Beginner EVM Course Project 
 ## MyToken Smart Contract
 
-This Solidity program is a simple implementation to demonstrate the basic functionalities of an ERC-20-like token on the Ethereum blockchain. This repository contains the MyToken smart contract, including functionalities for mining and burning token.
+This repository contains the MyToken smart contract, including functionalities for mining and burning token.
 ### Executing program
 
-To run this program, I used Remix, an online Solidity IDE. The Remix website at https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.18+commit.87f61d96.js.
-
-1. Primarily , created a new workspace naming Solidity_Assignment while intializing git with it and then created a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., Mytoken.sol). 
+To run this program, I used Remix, an online Solidity IDE. The Remix website at https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.18+commit.87f61d96.js
+Primarily , created a new workspace naming Solidity_Assignment while intializing git with it and then created a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., Mytoken.sol). 
 
 ```javascript
 // SPDX-License-Identifier: MIT
@@ -53,10 +52,9 @@ contract MyToken {
 }
 
 ```
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar.While making sure the "Compiler" option is set to "0.8.18", and then clicked on the "Compile Meta_Project2.sol" button.
 
-2. To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar.While making sure the "Compiler" option is set to "0.8.18", and then clicked on the "Compile Meta_Project2.sol" button.
-
-3. Once my code compiled succesfully, I deployed the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Selected the "Meta_Project2" contract from the dropdown menu, and then clicked on the "Deploy" button.
+Once my code compiled succesfully, I deployed the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Selected the "Meta_Project2" contract from the dropdown menu, and then clicked on the "Deploy" button.
 
 ## Authors
 JAY AGARWAL 
